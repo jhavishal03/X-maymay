@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
-@CrossOrigin(origins = "https://x-maymay-frontend.vercel.app/")
+@CrossOrigin(origins = "https://x-maymay-frontend.vercel.app/", maxAge = 3600)
 @RestController
 public class MemeController {
  @Autowired
