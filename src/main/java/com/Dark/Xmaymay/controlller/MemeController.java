@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://x-maymay-frontend.vercel.app/")
 @RestController
 public class MemeController {
  @Autowired
